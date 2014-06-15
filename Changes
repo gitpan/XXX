@@ -1,46 +1,33 @@
----
-version: 0.18
-date:    Mon Sep  5 09:42:01 BST 2011
-changes:
-- Add XXX_skip support
----
-version: 0.17
-date:    Fri Aug 20 08:26:52 PDT 2010
-changes:
-- Remove t/yyy.t
-- Support 'require XXX'
-- Support $XXX::DumpModule
----
-version: 0.16
-date:    Fri Jun 18 12:53:41 PDT 2010
-changes:
-- With Test::More, use diag for WWW and note for YYY. Thanks to theory and
-  schwern.
-- Use $Data::Dumper::Indent = 2 (instead of 1).
----
-version: 0.15
-date:    Tue Jun  8 12:27:35 PDT 2010
-changes:
-- Got rid of YYY.pm. Hopefully we can fix CPAN indexing!
-- Use Test::More::diag with YYY if it is loaded.
----
-version: 0.14
-date:    Mon Jun  7 23:27:45 PDT 2010
-changes:
-- Added: use XXX -with => 'Other::Dump::Module'; syntax.
-- Updated docs.
----
-version: 0.12
-date:    Tue Jun  3 13:07:31 PDT 2008
-changes:
-- Get rid of a bareword error.
----
-version: 0.11
-date:    Sun Jun  1 22:28:12 PDT 2008
-changes:
-- Add YYY.pm to get around CPAN indexing.
----
-version: 0.10
-date:    Sat Feb 18 10:29:44 PST 2006
-changes:
-- Maiden voyage
+0.19 Sun Jun 15 11:13:11 PDT 2014
+ - Switch to Zilla::Dist
+
+0.18 Mon Sep  5 09:42:01 BST 2011
+ - Add XXX_skip support
+ - Released from Liz++ and Wendy++'s Kitchen
+
+0.17 Fri Aug 20 08:26:52 PDT 2010
+ - Remove t/yyy.t
+ - Support 'require XXX'
+ - Support $XXX::DumpModule
+
+0.16 Fri Jun 18 12:53:41 PDT 2010
+ - With Test::More, use diag for WWW and note for YYY. Thanks to theory and
+   schwern.
+ - Use $Data::Dumper::Indent = 2 (instead of 1).
+
+0.15 Tue Jun  8 12:27:35 PDT 2010
+ - Got rid of YYY.pm. Hopefully we can fix CPAN indexing!
+ - Use Test::More::diag with YYY if it is loaded.
+
+0.14 Mon Jun  7 23:27:45 PDT 2010
+ - Updated docs.
+
+0.12 Tue Jun  3 13:07:31 PDT 2008
+ - Get rid of a bareword error.
+
+0.11 Sun Jun  1 22:28:12 PDT 2008
+ - Add YYY.pm to get around CPAN indexing.
+
+0.10 Sat Feb 18 10:29:44 PST 2006
+ - Maiden voyage
+
