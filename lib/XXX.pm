@@ -1,13 +1,6 @@
-##
-# name:      XXX
-# abstract:  See Your Data in the Nude
-# author:    Ingy döt Net <ingy@cpan.org>
-# license:   perl
-# copyright: 2006, 2008, 2010-2011
-
 use strict; use warnings;
 package XXX;
-$XXX::VERSION = '0.19';
+$XXX::VERSION = '0.20';
 use base 'Exporter';
 
 our @EXPORT = qw( WWW XXX YYY ZZZ );
