@@ -17,6 +17,7 @@ no_index:
     - inc
     - t
     - xt
+    - example
 recommends:
   YAML::XS: '0'
 requires:
@@ -26,4 +27,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/xxx-pm/issues
   homepage: https://github.com/ingydotnet/xxx-pm
   repository: https://github.com/ingydotnet/xxx-pm.git
-version: '0.20'
+version: '0.21'
