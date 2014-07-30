@@ -27,4 +27,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/xxx-pm/issues
   homepage: https://github.com/ingydotnet/xxx-pm
   repository: https://github.com/ingydotnet/xxx-pm.git
-version: '0.21'
+version: '0.22'
