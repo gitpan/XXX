@@ -1,7 +1,7 @@
-Name
+NAME
     XXX - See Your Data in the Nude
 
-Synopsis
+SYNOPSIS
         use XXX;
         XXX my $dog = Dog->new({has => ['fleas', 'style']});
         my $dog = XXX Dog->new({has => ['fleas', 'style']});
@@ -10,7 +10,7 @@ Synopsis
         my $dog = Dog->new({has => XXX ['fleas', 'style']});
         my $dog = Dog->new({has => [XXX 'fleas', 'style']});
 
-Description
+DESCRIPTION
     XXX.pm exports a function called XXX that you can put just about
     anywhere in your Perl code to make it die with a YAML dump of the
     arguments to its right.
@@ -20,7 +20,7 @@ Description
 
     XXX.pm also exports WWW, YYY and ZZZ which do similar debugging things.
 
-Functions
+FUNCTIONS
     WWW WWW will warn a dump of its arguments, and then return the original
         arguments. This means you can stick it in the middle of expressions.
 
@@ -46,7 +46,7 @@ Functions
         mnemonic: You should confess all your sins before you sleep.
         zzzzzzzz
 
-Configuration
+CONFIGURATION
     By default, XXX uses YAML.pm to dump your data. You can change this like
     so:
 
@@ -65,7 +65,7 @@ Configuration
 
         XXX::XXX($variable);
 
-Stack Trace Level
+STACK TRACE LEVEL
     If you call a debugging function that calls XXX for you, XXX will print
     the wrong file and line number. To force XXX to skip a package in the
     call stack, just define the "XXX_skip" constant like this:
@@ -80,10 +80,10 @@ Stack Trace Level
     Now calls to MyDebugger::debug will print the file name you called it
     from, not from MyDebugger itself.
 
-Author
+AUTHOR
     Ingy döt Net <ingy@cpan.org>
 
-Copyright and License
+COPYRIGHT AND LICENSE
     Copyright (c) 2006-2014. Ingy döt Net.
 
     This program is free software; you can redistribute it and/or modify it

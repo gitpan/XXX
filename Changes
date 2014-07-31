@@ -1,3 +1,6 @@
+0.23 Thu Jul 31 12:08:56 PDT 2014
+ - Fix encoding bug in Pod
+
 0.22 Wed Jul 30 16:23:52 PDT 2014
  - Doc to swim
  - Fix Meta and add Contributing
