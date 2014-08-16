@@ -9,6 +9,7 @@ Makefile.PL
 README
 lib/XXX.pm
 lib/XXX.pod
+t/000-compile-modules.t
 t/release-pod-syntax.t
 t/require.t
 t/test.t

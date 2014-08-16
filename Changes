@@ -1,3 +1,6 @@
+0.25 Fri Aug 15 21:02:18 PDT 2014
+ - Add t/000-compile-modules.t
+
 0.24 Mon Aug  4 00:46:46 PDT 2014
  - Remove (c) from Copyright
 
