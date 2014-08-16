@@ -1,7 +1,7 @@
 {
    "abstract" : "See Your Data in the Nude",
    "author" : [
-      "Ingy döt Net <ingy@ingy.net>"
+      "Ingy döt Net <ingy@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830",
@@ -54,6 +54,6 @@
          "web" : "https://github.com/ingydotnet/xxx-pm"
       }
    },
-   "version" : "0.26"
+   "version" : "0.27"
 }
 
