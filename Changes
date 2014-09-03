@@ -1,3 +1,6 @@
+0.28 Wed Sep  3 00:11:39 MDT 2014
+ - Add support for Data::Dump::Color. @perlancar++. PR/6
+
 0.27 Sat Aug 16 14:49:50 PDT 2014
  - Change Meta email
 
