@@ -51,11 +51,13 @@ CONFIGURATION
     so:
 
         use XXX -with => 'Data::Dumper';
+        use XXX -with => 'Data::Dump';
+        use XXX -with => 'Data::Dump::Color';
         use XXX -with => 'YAML::XS';
         use XXX -with => 'YAML::SomeOtherYamlModule';
 
-    Only modules with names beginning with 'YAML' and the Data::Dumper
-    module are supported.
+    Only modules with names beginning with 'YAML', and the Data::Dumper,
+    Data::Dump, and Data::Dump::Color modules are supported.
 
     If you need to load XXX with "require", you can set the dumper module
     with the $XXX::DumpModule global variable.

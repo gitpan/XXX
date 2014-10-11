@@ -1,3 +1,6 @@
+0.29 Sat Oct 11 18:30:39 CEST 2014
+ - Apply PR/7 by @perlancar++.
+
 0.28 Wed Sep  3 00:11:39 MDT 2014
  - Add support for Data::Dump::Color. @perlancar++. PR/6
 
